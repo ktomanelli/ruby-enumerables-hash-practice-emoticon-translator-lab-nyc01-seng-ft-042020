@@ -8,7 +8,7 @@ def load_library(path)
     obj[key]={:Japanese => value[1],:American => value[0]}
     obj
   }
-  puts obj
+  obj
 end
 
 def get_japanese_emoticon
