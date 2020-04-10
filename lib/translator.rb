@@ -15,6 +15,15 @@ def get_japanese_emoticon
   # code goes here
 end
 
-def get_english_meaning
+def get_english_meaning(path,emoticon)
   # code goes here
+  emotes = load_library(path)
+  emotes.length.times do |i|
+    if(emotes[i][:japanese]==emoticon)
+      return emotes[i]
+    end
+  end
+  
+  
+  
 end
