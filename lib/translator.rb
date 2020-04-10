@@ -11,11 +11,6 @@ def load_library(path)
   obj
 end
 
-def get_japanese_emoticon
-  # code goes here
-end
-
-
 def get_japanese_emoticon(path,emoticon)
   # code goes here
   emotes = load_library(path)
