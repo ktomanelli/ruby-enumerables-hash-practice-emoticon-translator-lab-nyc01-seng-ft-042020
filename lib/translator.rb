@@ -26,6 +26,8 @@ def get_english_meaning(path,emoticon)
   emotes.each do |item|
     if(item[1][:japanese]==emoticon)
       return item[0]
+    else
+      return 
     end
   end
 end
