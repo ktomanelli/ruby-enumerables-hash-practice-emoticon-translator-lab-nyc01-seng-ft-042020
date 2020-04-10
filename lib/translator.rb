@@ -5,7 +5,7 @@ def load_library(path)
   emotes = YAML.load_file(path)
   obj = {}
   emotes.each{|(key,value)| 
-    obj[key]={:Japanese => value[1],:American => value[0]}
+    obj[key]={:japanese => value[1],:english => value[0]}
     obj
   }
   obj
